@@ -28,8 +28,8 @@
 function filterArray(numbers, value) {
   const newArray = [];
   for (const element of numbers) {
-    if (numbers > value) {
-      newArray.push(numbers);
+    if (element > value) {
+      newArray.push(element);
     }
   }
   return newArray;
